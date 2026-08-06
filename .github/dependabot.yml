@@ -1,0 +1,24 @@
+version: 2
+
+updates:
+  # The toolchain is where this package accumulates drift: it has no runtime
+  # dependencies, so everything here is developer facing.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    groups:
+      dev-dependencies:
+        patterns: ['*']
+        update-types: [minor, patch]
+    ignore:
+      # @types/node tracks the oldest supported runtime, set by "engines" in
+      # package.json, not the newest release. Raise it deliberately.
+      - dependency-name: '@types/node'
+        update-types: [version-update:semver-major]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

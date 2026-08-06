@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tgz
+
+# Test and tooling output
+coverage/
+.vitest/
+*.tsbuildinfo
+
+# Local editor / agent settings
+.claude/settings.local.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS noise
+.DS_Store

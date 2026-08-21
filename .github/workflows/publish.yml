@@ -20,7 +20,7 @@ jobs:
       # this workflow run. No long lived token has to be stored.
       id-token: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v5
         with:
           node-version: 24

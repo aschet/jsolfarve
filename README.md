@@ -1,5 +1,7 @@
 # olfarve
 
+[![npm](https://img.shields.io/npm/v/olfarve)](https://www.npmjs.com/package/olfarve)
+
 _Øl farve_ ("beer color") renders SRM and EBC beer color values as sRGB colors,
 following the spectral model described by A. J. de Lange, "Color," in _Brewing
 Materials and Processes_, Elsevier, 2016, pp. 199-249.

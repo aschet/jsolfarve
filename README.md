@@ -1,4 +1,4 @@
-# olfarve
+# jsolfarve
 
 [![npm version](https://img.shields.io/npm/v/olfarve)](https://www.npmjs.com/package/olfarve)
 

@@ -19,9 +19,6 @@ transformed to sRGB.
 npm install olfarve
 ```
 
-The package requires Node.js 22.12 or newer and has no runtime dependencies. It
-ships both ESM and CommonJS builds along with TypeScript declarations.
-
 ## Usage
 
 ```js
